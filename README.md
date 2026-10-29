@@ -64,5 +64,137 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Depay is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by techstars) and added to the network as a stub for full-pipeline profiling.
-- https://depayapp.com/
+Depay is a Swiss‑based crypto payments platform that enables businesses and developers to accept stablecoins, tokens, and other Web3 assets across multiple blockchains. It offers non‑custodial payment links, plugins for Shopify, WooCommerce, WordPress, and APIs for seamless integration. Founded in 2020 and backed by Techstars, DePay provides auto‑conversion, multi‑chain support, and a developer portal with comprehensive documentation.
+
+**Areas:** Company · Payments · Crypto · Web3 · FinTech · API
+
+## Depay on APIs.io
+
+Everything profiled for Depay is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/depayapp-com/](https://apis.io/providers/depayapp-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [DePay API](https://apis.io/apis/depayapp-com/depay-api/) — DePay's Web3 API provides endpoints for payments, links, and token transfers.
+- [Depay API](https://apis.io/apis/depayapp-com/depayapp-com-api/) — Depay API as documented publicly: 6 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [GetAppsCheckoutsShopifyResponse](https://apis.io/schemas/depayapp-com/depayapp-com-get-apps-checkouts-shopify-response/)
+- [GetAppsPaymentsShopifyIdResponse](https://apis.io/schemas/depayapp-com/depayapp-com-get-apps-payments-shopify-id-response/)
+- [GetLinksLinkidPaymentsResponse](https://apis.io/schemas/depayapp-com/depayapp-com-get-links-linkid-payments-response/)
+- [GetPaymentsShopifyIdResponse](https://apis.io/schemas/depayapp-com/depayapp-com-get-payments-shopify-id-response/)
+- [PostPaymentsDepayCallbackRequest](https://apis.io/schemas/depayapp-com/depayapp-com-post-payments-depay-callback-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Depayapp Com Context](https://apis.io/jsonld/depayapp-com/depayapp-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Depay API Rules](https://apis.io/rules/depayapp-com/depayapp-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Depayapp Com Authentication](https://apis.io/security/depayapp-com/depayapp-com-authentication/)
+- [Depayapp Com Domain Security](https://apis.io/security/depayapp-com/depayapp-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Depayapp Com Scopes](https://apis.io/scopes/depayapp-com/depayapp-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Depayapp Com Plans Pricing](https://apis.io/plans/depayapp-com/depayapp-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Depayapp Com Rate Limits](https://apis.io/rate-limits/depayapp-com/depayapp-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://depay.com/)
+- [Documentation](https://depay.com/docs/)
+- [Getting started](https://depay.com/docs/)
+- [API reference](https://depay.com/docs/apis/)
+- [Pricing](https://depay.com/pricing/)
+- [Sign up](https://app.depay.com/)
+- [Support](https://app.depay.com/)
+- [Blog](https://depay.com/blog/)
+- [Terms of service](https://depay.com/legal/terms/)
+- [Privacy policy](https://depay.com/privacy/)
+- [GitHub](https://github.com/DePayFi)
+
+## API Evangelist rating
+
+**Kin Score 58.5** — strong · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 55.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 24.2 |
+| Developer ergonomics | 54.8 |
+| Access clarity | 63.7 |
+
+**Agent readiness 25.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 31.3** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/depayapp-com/](https://apis.io/providers/depayapp-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Depay: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/depayapp-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
